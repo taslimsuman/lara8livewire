@@ -34,6 +34,11 @@
 		$('#studentUpdate').modal('hide');
 
 	});
+	window.livewire.on('fileupload',()=>{
+		
+		$('#file-upload')[0].reset();
+
+	});
 </script>
 </body>
 </html>
